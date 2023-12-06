@@ -1,6 +1,6 @@
-#Вступ Kubernetes
+# **Вступ Kubernetes**
 
-##Minikube
+## **Minikube**
 
 site - https://minikube.sigs.k8s.io/
 repo - https://github.com/kubernetes/minikube
@@ -36,7 +36,7 @@ Podman is a utility provided as part of the libpod library. It can be used to cr
 
 
 
-##KIND
+## **kind**
 
 site - https://kind.sigs.k8s.io/
 repo - https://github.com/kubernetes-sigs/kind
@@ -59,7 +59,7 @@ kind or kubernetes in docker is a suite of tooling for local Kubernetes “clust
 
 Спільнота - https://kind.sigs.k8s.io/#community
 
-##k3d
+## **k3d**
 
 site - https://k3d.io/
 repo - https://github.com/rancher/k3d
