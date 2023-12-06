@@ -58,4 +58,6 @@ analysis | kind | k3d  | minikube
 Популярність | 125,8 тис. зірок на GitHub | 11,1 тис. зірок на GitHub | 4,1 тис. зірок на GitHub
 
 
-![color picker](625385.gif)
+![color picker](./.img/demonstration-k3d.gif)
+
+
