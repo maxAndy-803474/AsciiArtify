@@ -58,4 +58,4 @@ analysis | kind | k3d  | minikube
 Популярність | 125,8 тис. зірок на GitHub | 11,1 тис. зірок на GitHub | 4,1 тис. зірок на GitHub
 
 
-agg https://asciinema.org/a/UIVxnDwAH3H6W0sie7SffKLOp 625385.gif
+![color picker](625385.gif)
