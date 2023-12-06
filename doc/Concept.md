@@ -105,16 +105,22 @@ K3D быстрее, чем Kind, но Kind полностью соответст
 Цей підхід використовується майже в усіх наборах інструментів розробки Kubernetes, таких як tilt.dev, devspace< /span> та ін. Слідкуючи за змінами коду, ці інструменти розробки автоматично запускають цикл збирання-завантаження-виконання. Цей підхід повільніший, ніж монтування локального коду за допомогою налаштованого процесу контейнера, але принаймні він (завжди) не змінює об’єкти Kubernetes.
 
 Щоб зробити це з minikube, ви запускаєте...
-
-'minikube image load <name>'
+```
+minikube image load <name>
+```
+minikube image load <name>
 
 У k3d ви завантажуєте зображення за допомогою...
-
-'k3d image import <name>'
+```
+k3d image import <name>
+```
+k3d image import <name>
 
 і з добром це...
-
-'kind load docker-image <name>'
+```
+kind load docker-image <name>
+```
+kind load docker-image <name>
 
 ...з вашого терміналу.
 
