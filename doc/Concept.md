@@ -106,16 +106,16 @@ K3D быстрее, чем Kind, но Kind полностью соответст
 
 Щоб зробити це з minikube, ви запускаєте...
 
-> minikube image load <name>
-'''
+'minikube image load <name>'
+
 У k3d ви завантажуєте зображення за допомогою...
-'''
-> k3d image import <name>
-'''
+
+'k3d image import <name>'
+
 і з добром це...
-'''
-> kind load docker-image <name>
-'''
+
+'kind load docker-image <name>'
+
 ...з вашого терміналу.
 
 analysis | kind | k3d  | minikube
