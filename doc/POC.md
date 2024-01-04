@@ -17,5 +17,5 @@ Once installed, you can access the ArgoCD UI using port-forwarding or by exposin
 ```
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 ```
-Open a browser and visit 'https://localhost:8080'. You might need to accept the self-signed certificate to proceed.
+Open a browser and visit `https://localhost:8080`. You might need to accept the self-signed certificate to proceed.
 
