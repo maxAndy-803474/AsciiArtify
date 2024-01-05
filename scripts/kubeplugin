@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Define command-line arguments
+
+RESOURCE_TYPE=$1
+NAMESPACE=$2
+
+echo 'Resource' 'Namespace' 'Name' 'CPU' 'Memory'  | xargs -n5 printf '%-15s | %-15s | %-30s | %-10s | %-10s\n'
+# Retrieve resource usage statistics from Kubernetes
+kubectl top $RESOURCE_TYPE -n $NAMESPACE  | tail -n +2 | while read line
+do
+  # Extract CPU and memory usage from the output
+  NAME=$(echo $line | awk '{print $1}')
+  CPU=$(echo $line | awk '{print $2}')
+  MEMORY=$(echo $line | awk '{print $3}')
+  
+  echo $RESOURCE_TYPE $NAMESPACE $NAME $CPU $MEMORY | column -x | xargs -n5 printf '%-15s | %-15s | %-30s | %-10s | %-10s\n'
+  # Output the statistics to the console
+  # "Resource, Namespace, Name, CPU, Memory"
+done
